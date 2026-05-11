@@ -1,0 +1,5 @@
+- name: configure backend server
+  hosts: all
+  become: yes
+  roles:
+  - backend.yaml
